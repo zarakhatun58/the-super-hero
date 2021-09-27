@@ -1,0 +1,54 @@
+.doctors-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.big-container{
+    /* border-right: 2px solid gray; */
+    border: none;
+    margin-right: 5px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+
+}
+
+.small-container{
+/* border: 2px solid gray; */
+/* border-left: none; */
+height: 300px;
+background-color: rgb(238, 207, 217);
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 25px;
+/* position:fixed; */
+box-shadow:10px 10px 10px rgb(122, 126, 126);
+
+}
+
+.add-btn{
+    width: 130px;
+    height: 30px;
+   background-color: rgb(40, 221, 40);
+   border: 1px solid lightgrey;
+   border-radius: 15px;
+   font-weight: bold;
+
+}
+
+.name{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icons{
+    padding-top: 5px;
+}
+.icons li{
+    margin-left: 5px;
+    height: 20px;
+
+}

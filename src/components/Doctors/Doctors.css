@@ -1,0 +1,30 @@
+.doctors-details{
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    height: 500px;
+    width:300px;
+    margin: 10px;
+    background-color: rgb(195, 231, 219);
+    box-shadow:10px 10px 10px rgb(122, 126, 126);
+
+    
+}
+.doctors-details img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    border: none;
+    margin-top: 20px;
+
+    
+
+}
+.all-doctors{
+    
+    display: flex;
+    justify-items: space-between;
+    
+
+
+}

@@ -1,0 +1,49 @@
+.header{
+    background-color: rgb(163, 184, 73);
+    /* border: 1px solid black; */
+    box-shadow:10px 10px 10px rgb(122, 126, 126);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.header-2{
+    color: darkred;
+}
+
+.header p{
+    color: forestgreen;
+}
+
+.header h3{
+    color: indigo;
+}
+ul{
+    display: inline;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 50px;
+}
+
+ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+.header-1{
+    display: flex;
+    border-bottom: none;
+    text-align: left;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+.header-last{
+    text-align: center;
+
+}
+
+.input{
+    margin-right: 50px;
+}
