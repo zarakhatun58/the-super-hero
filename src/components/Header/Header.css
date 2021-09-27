@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(163, 184, 73);
+    background-color:rgb(171, 202, 221);
     /* border: 1px solid black; */
     box-shadow:10px 10px 10px rgb(122, 126, 126);
     margin: 10px;
@@ -11,7 +11,8 @@
 }
 
 .header p{
-    color: forestgreen;
+    color: rgb(5, 56, 5);
+    font-weight: 600;
 }
 
 .header h3{

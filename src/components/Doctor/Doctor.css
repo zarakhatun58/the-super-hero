@@ -19,7 +19,7 @@
 .small-container{
 /* border: 2px solid gray; */
 /* border-left: none; */
-height: 300px;
+height: 150px;
 background-color: rgb(238, 207, 217);
 margin-top: 10px;
 margin-right: 10px;
@@ -47,8 +47,8 @@ box-shadow:10px 10px 10px rgb(122, 126, 126);
 .icons{
     padding-top: 5px;
 }
-.icons li{
-    margin-left: 5px;
+.icons fab fa{ 
+    margin-left: 15px;
     height: 20px;
 
 }
