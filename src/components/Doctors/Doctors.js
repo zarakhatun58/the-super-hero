@@ -24,7 +24,7 @@ const Doctors = () => {
     return (
         <div div className="doctors-container">
             <div className="big-container">
-                {/* <h2> Find Your best Doctors</h2> */}
+
                 {
                     doctors.map(doctor => <Doctor doctor={doctor}
                         key={doctor.name}

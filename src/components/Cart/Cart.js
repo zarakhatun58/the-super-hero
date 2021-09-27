@@ -38,37 +38,3 @@ const Cart = (props) => {
 export default Cart;
 
 
-// import React from "react";
-// import DoctorShow from "./DoctorShow";
-// import "./Cart.css";
-// const Cart = (props) => {
-//     const { carts, removeDoctor } = props;
-//     let totalMoney = 0;
-//     if (carts.length) {
-//         totalMoney += carts.reduce(
-//             (previus, current) => previus + current.money,
-//             0
-//         );
-//     }
-//     return (
-//         <div className="card">
-//             <div className="card-body">
-//                 <h4 className="card-title">
-//                     Doctors:{props.carts.length}
-//                 </h4>
-//                 <h5 className="card-title">Total Cost : {totalMoney} $ </h5>
-//                 {carts.map((cart, index) => (
-//                     <DoctorShow
-//                         carts={cart}
-//                         index={index}
-//                         key={Math.random()}
-//                         removeDoctor={removeDoctor}
-//                     />
-//                 ))}
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Cart;
-
