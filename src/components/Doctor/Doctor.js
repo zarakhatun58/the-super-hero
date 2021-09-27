@@ -13,13 +13,13 @@ const Doctor = (props) => {
                 <h5> Phone:+{phone} </h5>
                 <h3 style={{ color: 'darkred' }}> Money:${money}</h3>
                 <h4> Department:{department}</h4>
-                <button onClick={() => props.addCartHandler(props.doctor)} type="button" className="add-btn"> <i class="fas fa-shopping-cart"></i> Add Money </button>
+                <button onClick={() => props.addCartHandler(props.doctor)} type="button" className="add-btn"> <i className="fas fa-shopping-cart"></i> Add Money </button>
 
                 <div className="icons">
-                    <i class="fab fa-facebook" style={{ marginRight: "10px" }}></i>
-                    <i class="fab fa-instagram" style={{ marginRight: "10px" }}></i>
-                    <i class="fab fa-linkedin" style={{ marginRight: "10px" }}></i>
-                    <i class="fab fa-twitter"></i>
+                    <i className="fab fa-facebook" style={{ marginRight: "10px" }}></i>
+                    <i className="fab fa-instagram" style={{ marginRight: "10px" }}></i>
+                    <i className="fab fa-linkedin" style={{ marginRight: "10px" }}></i>
+                    <i className="fab fa-twitter"></i>
 
                 </div>
 

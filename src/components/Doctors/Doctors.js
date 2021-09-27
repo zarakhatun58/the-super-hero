@@ -17,8 +17,6 @@ const Doctors = () => {
     const addCartHandler = (product) => {
         const newCart = [...cart, product]
         setCart(newCart);
-        console.log(cart);
-        console.log("Product Added", product)
     }
 
     return (

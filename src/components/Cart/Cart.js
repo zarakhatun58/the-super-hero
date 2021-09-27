@@ -18,7 +18,7 @@ const Cart = (props) => {
     return (
         <div className=" ">
             <h2> Fund Summery{ }</h2>
-            <h3><i class="fas fa-user"></i>Total Members:{props.cart.length}</h3>
+            <h3><i className="fas fa-user"></i>Total Members:{props.cart.length}</h3>
 
             <h4> Total Money:{totalMoney} $</h4>
             <div className="single-section">
