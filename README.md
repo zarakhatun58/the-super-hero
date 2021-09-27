@@ -1,11 +1,8 @@
 
 # Covid Warriors - The Doctors lies in you!
-Here is My [Live Project Link]( /)
+Live Site: https://jahanara-assignment-8.netlify.app/
 
-
-
-
-## Acknowledgements
+## Acknowledgements:-
 
  - Worlds top most Doctors arrange biggest Health Care Fund for help covid patients.
  - These Helth Cares Fund help poor people who affected Corona Virus.
